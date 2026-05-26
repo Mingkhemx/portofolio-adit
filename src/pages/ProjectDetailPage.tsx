@@ -166,7 +166,7 @@ function CustomVideoPlayer({ src, poster }: { src: string; poster?: string }) {
         onClick={togglePlay}
         onTimeUpdate={handleTimeUpdate}
         onLoadedMetadata={handleLoadedMetadata}
-        className="w-full h-auto object-cover max-h-[75vh] block"
+        className="w-full h-auto object-contain max-h-[85vh] block mx-auto rounded-3xl"
         playsInline
       />
 
