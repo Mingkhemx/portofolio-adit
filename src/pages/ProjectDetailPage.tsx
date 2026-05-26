@@ -384,10 +384,6 @@ export default function ProjectDetailPage() {
             <ArrowLeft size={14} className="group-hover:-translate-x-1 transition-transform duration-300" />
             Back to Portfolio
           </button>
-          
-          <button className="hidden sm:flex items-center gap-2 text-xs font-bold tracking-widest uppercase bg-[#39FF14] text-black border border-[#39FF14] hover:bg-transparent hover:text-[#39FF14] px-6 py-2.5 rounded-full transition-all duration-300 hover:shadow-[0_0_20px_rgba(57,255,20,0.3)] active:scale-95">
-            Launch Project <ExternalLink size={13} />
-          </button>
         </div>
       </header>
 
